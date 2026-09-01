@@ -17,7 +17,9 @@
 2.Polynomial regression
 - Linear regression tries to fit in a straight line
 - Polynomial Regression is still linear in its coefficients; it simply uses polynomial features of the input.
-- 
-  
-  
-  
+3.Logistic regression
+- we use to predict class or category
+- We use this when we want a probability between 0 and 1
+- <img width="321" height="71" alt="image" src="https://github.com/user-attachments/assets/c34e9b60-a2b9-43f2-8c69-f0bc8994499a" />
+- stratify = y  is used to keep the class balance when splitting
+- in logistic regression , we use feature scaling
