@@ -14,5 +14,10 @@
 - gradient descent tells the direction in which loss increases the faster
 - so we move in opposite direction the gradient
 - <img width="161" height="113" alt="image" src="https://github.com/user-attachments/assets/e233b801-4465-406f-81b1-0dc8f97bbf2a" />
-
+2.Polynomial regression
+- Linear regression tries to fit in a straight line
+- Polynomial Regression is still linear in its coefficients; it simply uses polynomial features of the input.
 - 
+  
+  
+  
