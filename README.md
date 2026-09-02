@@ -23,3 +23,28 @@
 - <img width="321" height="71" alt="image" src="https://github.com/user-attachments/assets/c34e9b60-a2b9-43f2-8c69-f0bc8994499a" />
 - stratify = y  is used to keep the class balance when splitting
 - in logistic regression , we use feature scaling
+3.Decision Tree
+  import matplotlib.pyplot as plt
+
+from sklearn.tree import ________, ________
+
+
+model = DecisionTreeClassifier(
+    max_depth=3,
+    random_state=42
+)
+
+model.fit(X_train, y_train)
+
+plt.figure(figsize=(15, 10))
+
+________(
+    model,
+    feature_names=iris.________,
+    class_names=iris.________,
+    filled=True,
+    rounded=True
+)
+
+plt.________("Decision Tree")
+plt.________()
