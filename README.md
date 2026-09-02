@@ -74,4 +74,28 @@ plot_tree(
 
 plt.title("Decision Tree")
 plt.show()
+import matplotlib.pyplot as plt
+
+from sklearn.tree import DecisionTreeClassifier, plot_tree
+
+
+model = DecisionTreeClassifier(
+    max_depth=3,
+    random_state=42
+)
+
+model.fit(X_train, y_train)
+
+plt.figure(figsize=(15, 10))
+
+plot_tree(
+    model,
+    feature_names=iris.feature_names,
+    class_names=iris.target_names,
+    filled=True,
+    rounded=True
+)
+
+plt.title("Decision Tree")
+plt.show()
 
